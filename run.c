@@ -1,7 +1,6 @@
 /*
  * File: run_monty.c
- * Auth: Bennett Dixon
- *       Brennan D Baraban
+ * 
  */
 
 #include "monty.h"
@@ -111,8 +110,9 @@ void (*get_op_func(char *opcode))(stack_t**, unsigned int)
 /**
  * run_monty - Primary function to execute a Monty bytecodes script.
  * @script_fd: File descriptor for an open Monty bytecodes script.
- *
  * Return: EXIT_SUCCESS on success, respective error code on failure.
+ * @getline: string function
+ * Return: exit status 
  */
 int run_monty(FILE *script_fd)
 {
