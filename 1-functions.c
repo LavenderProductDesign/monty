@@ -1,11 +1,11 @@
 /*
  * File: monty_funcs_1.c
- * Auth: Bennett Dixon
- *       Brennan D Baraban
+ * Auth: Lavender
+ *       Motlamelle
  */
 
 #include "monty.h"
-
+char **op_toks = NULL;
 void monty_push(stack_t **stack, unsigned int line_number);
 void monty_pall(stack_t **stack, unsigned int line_number);
 void monty_pint(stack_t **stack, unsigned int line_number);
